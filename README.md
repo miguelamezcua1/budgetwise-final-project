@@ -1,12 +1,23 @@
-# React + Vite
+# BudgetWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React-based budget tracker where users can add income and expense transactions, view their total balance, and track transaction history.
 
-Currently, two official plugins are available:
+## Features
+- Add income and expense entries
+- View running balance
+- Delete transactions
+- Data saved in browser with localStorage
+- Responsive and mobile-friendly
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React (with Hooks)
+- HTML & CSS
+- JavaScript (ES6+)
+- localStorage
 
-## Expanding the ESLint configuration
+## How to Use
+1. Clone or open the project in StackBlitz
+2. Add a transaction using the form
+3. Delete any transaction from the list
+4. Your data stays saved between sessions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
